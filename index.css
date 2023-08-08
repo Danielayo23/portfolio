@@ -1,0 +1,251 @@
+/* Reset default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and default font */
+body {
+  background-color: #f9f9f9;
+  font-family: "Helvetica", sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: #3498db;
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+  margin-bottom: 20px;
+}
+
+/* Main content container */
+main {
+  padding: 20px 60px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Section headings */
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333333;
+  text-align: center;
+}
+
+/* About Me section */
+/* About Me section */
+#about {
+  padding: 40px 150px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333333;
+  text-align: center;
+}
+
+#about h4 {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  color: #555555;
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #777777;
+}
+
+#about h4,
+#about p {
+  margin-bottom: 1.5rem;
+}
+
+#about ul {
+  list-style: disc;
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#about li {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #777777;
+}
+
+#about strong {
+  font-weight: bold;
+  color: #333333;
+}
+
+#about em {
+  font-style: italic;
+  color: #555555;
+}
+
+/* Portfolio projects */
+#portfolio {
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#portfolio h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #c04949;
+  text-align: center;
+}
+
+.project {
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.3s;
+  width: 700px;
+}
+
+.project:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333333;
+}
+
+.project p {
+  color: #555555;
+}
+
+.project a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project a:hover {
+  color: #2980b9;
+}
+
+/* Contact section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#contact h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333333;
+  text-align: center;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-item a {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-item a:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* Gallery section */
+/* Gallery section */
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* Adjust as needed */
+  padding: 40px 0;
+  flex-direction: column;
+}
+
+.gallery-img {
+  width: 150px; /* Set the width as needed */
+  height: 150px; /* Set the height as needed */
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect for images if desired */
+.gallery-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Footer */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Links */
+a {
+  color: #2980b9;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #34495e;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 3rem 0;
+  }
+
+  .container,
+  #contact {
+    padding: 20px;
+  }
+}
